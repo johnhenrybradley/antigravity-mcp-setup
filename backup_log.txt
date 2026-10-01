@@ -1,0 +1,1596 @@
+Traceback (most recent call last):
+  File "<string>", line 2, in <module>
+  File "/home/john/antigravity-mcp-setup/server.py", line 13, in <module>
+    storage_client = storage.Client()
+                     ^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/storage/client.py", line 265, in __init__
+    super(Client, self).__init__(
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 339, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 287, in __init__
+    project = self._determine_default(project)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 306, in _determine_default
+    return _determine_default_project(project)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/auth/_default.py", line 752, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/home/john/antigravity-mcp-setup/server.py", line 13, in <module>
+    storage_client = storage.Client()
+                     ^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/storage/client.py", line 265, in __init__
+    super(Client, self).__init__(
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 339, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 287, in __init__
+    project = self._determine_default(project)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 306, in _determine_default
+    return _determine_default_project(project)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/auth/_default.py", line 752, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+Traceback (most recent call last):
+  File "<string>", line 2, in <module>
+  File "/home/john/antigravity-mcp-setup/server.py", line 13, in <module>
+    storage_client = storage.Client()
+                     ^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/storage/client.py", line 265, in __init__
+    super(Client, self).__init__(
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 339, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 287, in __init__
+    project = self._determine_default(project)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 306, in _determine_default
+    return _determine_default_project(project)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/auth/_default.py", line 752, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/home/john/antigravity-mcp-setup/server.py", line 13, in <module>
+    storage_client = storage.Client()
+                     ^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/storage/client.py", line 265, in __init__
+    super(Client, self).__init__(
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 339, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 287, in __init__
+    project = self._determine_default(project)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 306, in _determine_default
+    return _determine_default_project(project)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/auth/_default.py", line 752, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+Traceback (most recent call last):
+  File "<string>", line 2, in <module>
+  File "/home/john/antigravity-mcp-setup/server.py", line 13, in <module>
+    storage_client = storage.Client()
+                     ^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/storage/client.py", line 265, in __init__
+    super(Client, self).__init__(
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 339, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 287, in __init__
+    project = self._determine_default(project)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 306, in _determine_default
+    return _determine_default_project(project)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/auth/_default.py", line 752, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/home/john/antigravity-mcp-setup/server.py", line 13, in <module>
+    storage_client = storage.Client()
+                     ^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/storage/client.py", line 265, in __init__
+    super(Client, self).__init__(
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 339, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 287, in __init__
+    project = self._determine_default(project)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 306, in _determine_default
+    return _determine_default_project(project)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/auth/_default.py", line 752, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+Traceback (most recent call last):
+  File "<string>", line 2, in <module>
+  File "/home/john/antigravity-mcp-setup/server.py", line 13, in <module>
+    storage_client = storage.Client()
+                     ^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/storage/client.py", line 265, in __init__
+    super(Client, self).__init__(
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 339, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 287, in __init__
+    project = self._determine_default(project)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 306, in _determine_default
+    return _determine_default_project(project)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/auth/_default.py", line 752, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/home/john/antigravity-mcp-setup/server.py", line 13, in <module>
+    storage_client = storage.Client()
+                     ^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/storage/client.py", line 265, in __init__
+    super(Client, self).__init__(
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 339, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 287, in __init__
+    project = self._determine_default(project)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 306, in _determine_default
+    return _determine_default_project(project)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/auth/_default.py", line 752, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+Traceback (most recent call last):
+  File "<string>", line 2, in <module>
+  File "/home/john/antigravity-mcp-setup/server.py", line 13, in <module>
+    storage_client = storage.Client()
+                     ^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/storage/client.py", line 265, in __init__
+    super(Client, self).__init__(
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 339, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 287, in __init__
+    project = self._determine_default(project)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 306, in _determine_default
+    return _determine_default_project(project)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/auth/_default.py", line 752, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/home/john/antigravity-mcp-setup/server.py", line 13, in <module>
+    storage_client = storage.Client()
+                     ^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/storage/client.py", line 265, in __init__
+    super(Client, self).__init__(
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 339, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 287, in __init__
+    project = self._determine_default(project)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 306, in _determine_default
+    return _determine_default_project(project)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/auth/_default.py", line 752, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+Traceback (most recent call last):
+  File "<string>", line 2, in <module>
+  File "/home/john/antigravity-mcp-setup/server.py", line 13, in <module>
+    storage_client = storage.Client()
+                     ^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/storage/client.py", line 265, in __init__
+    super(Client, self).__init__(
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 339, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 287, in __init__
+    project = self._determine_default(project)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 306, in _determine_default
+    return _determine_default_project(project)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/auth/_default.py", line 752, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/home/john/antigravity-mcp-setup/server.py", line 13, in <module>
+    storage_client = storage.Client()
+                     ^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/storage/client.py", line 265, in __init__
+    super(Client, self).__init__(
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 339, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 287, in __init__
+    project = self._determine_default(project)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 306, in _determine_default
+    return _determine_default_project(project)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/auth/_default.py", line 752, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+Traceback (most recent call last):
+  File "<string>", line 2, in <module>
+  File "/home/john/antigravity-mcp-setup/server.py", line 13, in <module>
+    storage_client = storage.Client()
+                     ^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/storage/client.py", line 265, in __init__
+    super(Client, self).__init__(
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 339, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 287, in __init__
+    project = self._determine_default(project)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 306, in _determine_default
+    return _determine_default_project(project)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/auth/_default.py", line 752, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/home/john/antigravity-mcp-setup/server.py", line 13, in <module>
+    storage_client = storage.Client()
+                     ^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/storage/client.py", line 265, in __init__
+    super(Client, self).__init__(
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 339, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 287, in __init__
+    project = self._determine_default(project)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 306, in _determine_default
+    return _determine_default_project(project)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/auth/_default.py", line 752, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+Traceback (most recent call last):
+  File "<string>", line 2, in <module>
+  File "/home/john/antigravity-mcp-setup/server.py", line 13, in <module>
+    storage_client = storage.Client()
+                     ^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/storage/client.py", line 265, in __init__
+    super(Client, self).__init__(
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 339, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 287, in __init__
+    project = self._determine_default(project)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 306, in _determine_default
+    return _determine_default_project(project)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/auth/_default.py", line 752, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/home/john/antigravity-mcp-setup/server.py", line 13, in <module>
+    storage_client = storage.Client()
+                     ^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/storage/client.py", line 265, in __init__
+    super(Client, self).__init__(
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 339, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 287, in __init__
+    project = self._determine_default(project)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 306, in _determine_default
+    return _determine_default_project(project)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/auth/_default.py", line 752, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+Traceback (most recent call last):
+  File "<string>", line 2, in <module>
+  File "/home/john/antigravity-mcp-setup/server.py", line 13, in <module>
+    storage_client = storage.Client()
+                     ^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/storage/client.py", line 265, in __init__
+    super(Client, self).__init__(
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 339, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 287, in __init__
+    project = self._determine_default(project)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 306, in _determine_default
+    return _determine_default_project(project)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/auth/_default.py", line 752, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/home/john/antigravity-mcp-setup/server.py", line 13, in <module>
+    storage_client = storage.Client()
+                     ^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/storage/client.py", line 265, in __init__
+    super(Client, self).__init__(
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 339, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 287, in __init__
+    project = self._determine_default(project)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 306, in _determine_default
+    return _determine_default_project(project)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/auth/_default.py", line 752, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+Traceback (most recent call last):
+  File "<string>", line 2, in <module>
+  File "/home/john/antigravity-mcp-setup/server.py", line 13, in <module>
+    storage_client = storage.Client()
+                     ^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/storage/client.py", line 265, in __init__
+    super(Client, self).__init__(
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 339, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 287, in __init__
+    project = self._determine_default(project)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 306, in _determine_default
+    return _determine_default_project(project)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/auth/_default.py", line 752, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/home/john/antigravity-mcp-setup/server.py", line 13, in <module>
+    storage_client = storage.Client()
+                     ^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/storage/client.py", line 265, in __init__
+    super(Client, self).__init__(
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 339, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 287, in __init__
+    project = self._determine_default(project)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 306, in _determine_default
+    return _determine_default_project(project)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/auth/_default.py", line 752, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+Traceback (most recent call last):
+  File "<string>", line 2, in <module>
+  File "/home/john/antigravity-mcp-setup/server.py", line 13, in <module>
+    storage_client = storage.Client()
+                     ^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/storage/client.py", line 265, in __init__
+    super(Client, self).__init__(
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 339, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 287, in __init__
+    project = self._determine_default(project)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 306, in _determine_default
+    return _determine_default_project(project)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/auth/_default.py", line 752, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/home/john/antigravity-mcp-setup/server.py", line 13, in <module>
+    storage_client = storage.Client()
+                     ^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/storage/client.py", line 265, in __init__
+    super(Client, self).__init__(
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 339, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 287, in __init__
+    project = self._determine_default(project)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 306, in _determine_default
+    return _determine_default_project(project)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/auth/_default.py", line 752, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+Traceback (most recent call last):
+  File "<string>", line 2, in <module>
+  File "/home/john/antigravity-mcp-setup/server.py", line 13, in <module>
+    storage_client = storage.Client()
+                     ^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/storage/client.py", line 265, in __init__
+    super(Client, self).__init__(
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 339, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 287, in __init__
+    project = self._determine_default(project)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 306, in _determine_default
+    return _determine_default_project(project)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/auth/_default.py", line 752, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/home/john/antigravity-mcp-setup/server.py", line 13, in <module>
+    storage_client = storage.Client()
+                     ^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/storage/client.py", line 265, in __init__
+    super(Client, self).__init__(
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 339, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 287, in __init__
+    project = self._determine_default(project)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 306, in _determine_default
+    return _determine_default_project(project)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/auth/_default.py", line 752, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+Traceback (most recent call last):
+  File "<string>", line 2, in <module>
+  File "/home/john/antigravity-mcp-setup/server.py", line 13, in <module>
+    storage_client = storage.Client()
+                     ^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/storage/client.py", line 265, in __init__
+    super(Client, self).__init__(
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 339, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 287, in __init__
+    project = self._determine_default(project)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 306, in _determine_default
+    return _determine_default_project(project)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/auth/_default.py", line 752, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/home/john/antigravity-mcp-setup/server.py", line 13, in <module>
+    storage_client = storage.Client()
+                     ^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/storage/client.py", line 265, in __init__
+    super(Client, self).__init__(
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 339, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 287, in __init__
+    project = self._determine_default(project)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 306, in _determine_default
+    return _determine_default_project(project)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/auth/_default.py", line 752, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+Traceback (most recent call last):
+  File "<string>", line 2, in <module>
+  File "/home/john/antigravity-mcp-setup/server.py", line 13, in <module>
+    storage_client = storage.Client()
+                     ^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/storage/client.py", line 265, in __init__
+    super(Client, self).__init__(
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 339, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 287, in __init__
+    project = self._determine_default(project)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 306, in _determine_default
+    return _determine_default_project(project)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/auth/_default.py", line 752, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/home/john/antigravity-mcp-setup/server.py", line 13, in <module>
+    storage_client = storage.Client()
+                     ^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/storage/client.py", line 265, in __init__
+    super(Client, self).__init__(
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 339, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 287, in __init__
+    project = self._determine_default(project)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 306, in _determine_default
+    return _determine_default_project(project)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/auth/_default.py", line 752, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+Traceback (most recent call last):
+  File "<string>", line 2, in <module>
+  File "/home/john/antigravity-mcp-setup/server.py", line 13, in <module>
+    storage_client = storage.Client()
+                     ^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/storage/client.py", line 265, in __init__
+    super(Client, self).__init__(
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 339, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 287, in __init__
+    project = self._determine_default(project)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 306, in _determine_default
+    return _determine_default_project(project)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/auth/_default.py", line 752, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/home/john/antigravity-mcp-setup/server.py", line 13, in <module>
+    storage_client = storage.Client()
+                     ^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/storage/client.py", line 265, in __init__
+    super(Client, self).__init__(
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 339, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 287, in __init__
+    project = self._determine_default(project)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 306, in _determine_default
+    return _determine_default_project(project)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/auth/_default.py", line 752, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+Traceback (most recent call last):
+  File "<string>", line 2, in <module>
+  File "/home/john/antigravity-mcp-setup/server.py", line 13, in <module>
+    storage_client = storage.Client()
+                     ^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/storage/client.py", line 265, in __init__
+    super(Client, self).__init__(
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 339, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 287, in __init__
+    project = self._determine_default(project)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 306, in _determine_default
+    return _determine_default_project(project)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/auth/_default.py", line 752, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/home/john/antigravity-mcp-setup/server.py", line 13, in <module>
+    storage_client = storage.Client()
+                     ^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/storage/client.py", line 265, in __init__
+    super(Client, self).__init__(
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 339, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 287, in __init__
+    project = self._determine_default(project)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 306, in _determine_default
+    return _determine_default_project(project)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/auth/_default.py", line 752, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+Traceback (most recent call last):
+  File "<string>", line 2, in <module>
+  File "/home/john/antigravity-mcp-setup/server.py", line 13, in <module>
+    storage_client = storage.Client()
+                     ^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/storage/client.py", line 265, in __init__
+    super(Client, self).__init__(
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 339, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 287, in __init__
+    project = self._determine_default(project)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 306, in _determine_default
+    return _determine_default_project(project)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/auth/_default.py", line 752, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/home/john/antigravity-mcp-setup/server.py", line 13, in <module>
+    storage_client = storage.Client()
+                     ^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/storage/client.py", line 265, in __init__
+    super(Client, self).__init__(
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 339, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 287, in __init__
+    project = self._determine_default(project)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 306, in _determine_default
+    return _determine_default_project(project)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/auth/_default.py", line 752, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+Traceback (most recent call last):
+  File "<string>", line 2, in <module>
+  File "/home/john/antigravity-mcp-setup/server.py", line 13, in <module>
+    storage_client = storage.Client()
+                     ^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/storage/client.py", line 265, in __init__
+    super(Client, self).__init__(
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 339, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 287, in __init__
+    project = self._determine_default(project)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 306, in _determine_default
+    return _determine_default_project(project)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/auth/_default.py", line 752, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/home/john/antigravity-mcp-setup/server.py", line 13, in <module>
+    storage_client = storage.Client()
+                     ^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/storage/client.py", line 265, in __init__
+    super(Client, self).__init__(
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 339, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 287, in __init__
+    project = self._determine_default(project)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 306, in _determine_default
+    return _determine_default_project(project)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/auth/_default.py", line 752, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+Traceback (most recent call last):
+  File "<string>", line 2, in <module>
+  File "/home/john/antigravity-mcp-setup/server.py", line 13, in <module>
+    storage_client = storage.Client()
+                     ^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/storage/client.py", line 265, in __init__
+    super(Client, self).__init__(
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 339, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 287, in __init__
+    project = self._determine_default(project)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 306, in _determine_default
+    return _determine_default_project(project)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/auth/_default.py", line 752, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/home/john/antigravity-mcp-setup/server.py", line 13, in <module>
+    storage_client = storage.Client()
+                     ^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/storage/client.py", line 265, in __init__
+    super(Client, self).__init__(
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 339, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 287, in __init__
+    project = self._determine_default(project)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 306, in _determine_default
+    return _determine_default_project(project)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/auth/_default.py", line 752, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+Traceback (most recent call last):
+  File "<string>", line 2, in <module>
+  File "/home/john/antigravity-mcp-setup/server.py", line 13, in <module>
+    storage_client = storage.Client()
+                     ^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/storage/client.py", line 265, in __init__
+    super(Client, self).__init__(
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 339, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 287, in __init__
+    project = self._determine_default(project)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 306, in _determine_default
+    return _determine_default_project(project)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/auth/_default.py", line 752, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/home/john/antigravity-mcp-setup/server.py", line 13, in <module>
+    storage_client = storage.Client()
+                     ^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/storage/client.py", line 265, in __init__
+    super(Client, self).__init__(
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 339, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 287, in __init__
+    project = self._determine_default(project)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 306, in _determine_default
+    return _determine_default_project(project)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/auth/_default.py", line 752, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+Traceback (most recent call last):
+  File "<string>", line 2, in <module>
+  File "/home/john/antigravity-mcp-setup/server.py", line 13, in <module>
+    storage_client = storage.Client()
+                     ^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/storage/client.py", line 265, in __init__
+    super(Client, self).__init__(
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 339, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 287, in __init__
+    project = self._determine_default(project)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 306, in _determine_default
+    return _determine_default_project(project)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/auth/_default.py", line 752, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/home/john/antigravity-mcp-setup/server.py", line 13, in <module>
+    storage_client = storage.Client()
+                     ^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/storage/client.py", line 265, in __init__
+    super(Client, self).__init__(
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 339, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 287, in __init__
+    project = self._determine_default(project)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 306, in _determine_default
+    return _determine_default_project(project)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/auth/_default.py", line 752, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+Traceback (most recent call last):
+  File "<string>", line 2, in <module>
+  File "/home/john/antigravity-mcp-setup/server.py", line 13, in <module>
+    storage_client = storage.Client()
+                     ^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/storage/client.py", line 265, in __init__
+    super(Client, self).__init__(
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 339, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 287, in __init__
+    project = self._determine_default(project)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 306, in _determine_default
+    return _determine_default_project(project)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/auth/_default.py", line 752, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/home/john/antigravity-mcp-setup/server.py", line 13, in <module>
+    storage_client = storage.Client()
+                     ^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/storage/client.py", line 265, in __init__
+    super(Client, self).__init__(
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 339, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 287, in __init__
+    project = self._determine_default(project)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 306, in _determine_default
+    return _determine_default_project(project)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/auth/_default.py", line 752, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+Traceback (most recent call last):
+  File "<string>", line 2, in <module>
+  File "/home/john/antigravity-mcp-setup/server.py", line 13, in <module>
+    storage_client = storage.Client()
+                     ^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/storage/client.py", line 265, in __init__
+    super(Client, self).__init__(
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 339, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 287, in __init__
+    project = self._determine_default(project)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 306, in _determine_default
+    return _determine_default_project(project)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/auth/_default.py", line 752, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/home/john/antigravity-mcp-setup/server.py", line 13, in <module>
+    storage_client = storage.Client()
+                     ^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/storage/client.py", line 265, in __init__
+    super(Client, self).__init__(
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 339, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 287, in __init__
+    project = self._determine_default(project)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 306, in _determine_default
+    return _determine_default_project(project)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/auth/_default.py", line 752, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+Traceback (most recent call last):
+  File "<string>", line 2, in <module>
+  File "/home/john/antigravity-mcp-setup/server.py", line 13, in <module>
+    storage_client = storage.Client()
+                     ^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/storage/client.py", line 265, in __init__
+    super(Client, self).__init__(
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 339, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 287, in __init__
+    project = self._determine_default(project)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 306, in _determine_default
+    return _determine_default_project(project)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/auth/_default.py", line 752, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/home/john/antigravity-mcp-setup/server.py", line 13, in <module>
+    storage_client = storage.Client()
+                     ^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/storage/client.py", line 265, in __init__
+    super(Client, self).__init__(
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 339, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 287, in __init__
+    project = self._determine_default(project)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 306, in _determine_default
+    return _determine_default_project(project)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/auth/_default.py", line 752, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+Traceback (most recent call last):
+  File "<string>", line 2, in <module>
+  File "/home/john/antigravity-mcp-setup/server.py", line 13, in <module>
+    storage_client = storage.Client()
+                     ^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/storage/client.py", line 265, in __init__
+    super(Client, self).__init__(
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 339, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 287, in __init__
+    project = self._determine_default(project)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 306, in _determine_default
+    return _determine_default_project(project)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/auth/_default.py", line 752, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/home/john/antigravity-mcp-setup/server.py", line 13, in <module>
+    storage_client = storage.Client()
+                     ^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/storage/client.py", line 265, in __init__
+    super(Client, self).__init__(
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 339, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 287, in __init__
+    project = self._determine_default(project)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 306, in _determine_default
+    return _determine_default_project(project)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/auth/_default.py", line 752, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+Traceback (most recent call last):
+  File "<string>", line 2, in <module>
+  File "/home/john/antigravity-mcp-setup/server.py", line 13, in <module>
+    storage_client = storage.Client()
+                     ^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/storage/client.py", line 265, in __init__
+    super(Client, self).__init__(
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 339, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 287, in __init__
+    project = self._determine_default(project)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 306, in _determine_default
+    return _determine_default_project(project)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/auth/_default.py", line 752, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/home/john/antigravity-mcp-setup/server.py", line 13, in <module>
+    storage_client = storage.Client()
+                     ^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/storage/client.py", line 265, in __init__
+    super(Client, self).__init__(
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 339, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 287, in __init__
+    project = self._determine_default(project)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 306, in _determine_default
+    return _determine_default_project(project)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/auth/_default.py", line 752, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+Traceback (most recent call last):
+  File "<string>", line 2, in <module>
+  File "/home/john/antigravity-mcp-setup/server.py", line 13, in <module>
+    storage_client = storage.Client()
+                     ^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/storage/client.py", line 265, in __init__
+    super(Client, self).__init__(
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 339, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 287, in __init__
+    project = self._determine_default(project)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 306, in _determine_default
+    return _determine_default_project(project)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/auth/_default.py", line 752, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/home/john/antigravity-mcp-setup/server.py", line 13, in <module>
+    storage_client = storage.Client()
+                     ^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/storage/client.py", line 265, in __init__
+    super(Client, self).__init__(
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 339, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 287, in __init__
+    project = self._determine_default(project)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 306, in _determine_default
+    return _determine_default_project(project)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/auth/_default.py", line 752, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+Traceback (most recent call last):
+  File "<string>", line 2, in <module>
+  File "/home/john/antigravity-mcp-setup/server.py", line 13, in <module>
+    storage_client = storage.Client()
+                     ^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/storage/client.py", line 265, in __init__
+    super(Client, self).__init__(
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 339, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 287, in __init__
+    project = self._determine_default(project)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 306, in _determine_default
+    return _determine_default_project(project)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/auth/_default.py", line 752, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/home/john/antigravity-mcp-setup/server.py", line 13, in <module>
+    storage_client = storage.Client()
+                     ^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/storage/client.py", line 265, in __init__
+    super(Client, self).__init__(
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 339, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 287, in __init__
+    project = self._determine_default(project)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 306, in _determine_default
+    return _determine_default_project(project)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/auth/_default.py", line 752, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+Traceback (most recent call last):
+  File "<string>", line 2, in <module>
+  File "/home/john/antigravity-mcp-setup/server.py", line 13, in <module>
+    storage_client = storage.Client()
+                     ^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/storage/client.py", line 265, in __init__
+    super(Client, self).__init__(
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 339, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 287, in __init__
+    project = self._determine_default(project)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 306, in _determine_default
+    return _determine_default_project(project)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/auth/_default.py", line 752, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/home/john/antigravity-mcp-setup/server.py", line 13, in <module>
+    storage_client = storage.Client()
+                     ^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/storage/client.py", line 265, in __init__
+    super(Client, self).__init__(
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 339, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 287, in __init__
+    project = self._determine_default(project)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 306, in _determine_default
+    return _determine_default_project(project)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/auth/_default.py", line 752, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+Traceback (most recent call last):
+  File "<string>", line 2, in <module>
+  File "/home/john/antigravity-mcp-setup/server.py", line 13, in <module>
+    storage_client = storage.Client()
+                     ^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/storage/client.py", line 265, in __init__
+    super(Client, self).__init__(
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 339, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 287, in __init__
+    project = self._determine_default(project)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 306, in _determine_default
+    return _determine_default_project(project)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/auth/_default.py", line 752, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/home/john/antigravity-mcp-setup/server.py", line 13, in <module>
+    storage_client = storage.Client()
+                     ^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/storage/client.py", line 265, in __init__
+    super(Client, self).__init__(
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 339, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 287, in __init__
+    project = self._determine_default(project)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 306, in _determine_default
+    return _determine_default_project(project)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/auth/_default.py", line 752, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+Traceback (most recent call last):
+  File "<string>", line 2, in <module>
+  File "/home/john/antigravity-mcp-setup/server.py", line 13, in <module>
+    storage_client = storage.Client()
+                     ^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/storage/client.py", line 265, in __init__
+    super(Client, self).__init__(
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 339, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 287, in __init__
+    project = self._determine_default(project)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 306, in _determine_default
+    return _determine_default_project(project)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/auth/_default.py", line 752, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/home/john/antigravity-mcp-setup/server.py", line 13, in <module>
+    storage_client = storage.Client()
+                     ^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/storage/client.py", line 265, in __init__
+    super(Client, self).__init__(
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 339, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 287, in __init__
+    project = self._determine_default(project)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 306, in _determine_default
+    return _determine_default_project(project)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/auth/_default.py", line 752, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+Traceback (most recent call last):
+  File "<string>", line 2, in <module>
+  File "/home/john/antigravity-mcp-setup/server.py", line 13, in <module>
+    storage_client = storage.Client()
+                     ^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/storage/client.py", line 265, in __init__
+    super(Client, self).__init__(
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 339, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 287, in __init__
+    project = self._determine_default(project)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 306, in _determine_default
+    return _determine_default_project(project)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/auth/_default.py", line 752, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/home/john/antigravity-mcp-setup/server.py", line 13, in <module>
+    storage_client = storage.Client()
+                     ^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/storage/client.py", line 265, in __init__
+    super(Client, self).__init__(
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 339, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 287, in __init__
+    project = self._determine_default(project)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 306, in _determine_default
+    return _determine_default_project(project)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/auth/_default.py", line 752, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+Traceback (most recent call last):
+  File "<string>", line 2, in <module>
+  File "/home/john/antigravity-mcp-setup/server.py", line 13, in <module>
+    storage_client = storage.Client()
+                     ^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/storage/client.py", line 265, in __init__
+    super(Client, self).__init__(
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 339, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 287, in __init__
+    project = self._determine_default(project)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 306, in _determine_default
+    return _determine_default_project(project)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/auth/_default.py", line 752, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/home/john/antigravity-mcp-setup/server.py", line 13, in <module>
+    storage_client = storage.Client()
+                     ^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/storage/client.py", line 265, in __init__
+    super(Client, self).__init__(
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 339, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 287, in __init__
+    project = self._determine_default(project)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 306, in _determine_default
+    return _determine_default_project(project)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/auth/_default.py", line 752, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+Traceback (most recent call last):
+  File "<string>", line 2, in <module>
+  File "/home/john/antigravity-mcp-setup/server.py", line 13, in <module>
+    storage_client = storage.Client()
+                     ^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/storage/client.py", line 265, in __init__
+    super(Client, self).__init__(
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 339, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 287, in __init__
+    project = self._determine_default(project)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 306, in _determine_default
+    return _determine_default_project(project)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/auth/_default.py", line 752, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/home/john/antigravity-mcp-setup/server.py", line 13, in <module>
+    storage_client = storage.Client()
+                     ^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/storage/client.py", line 265, in __init__
+    super(Client, self).__init__(
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 339, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 287, in __init__
+    project = self._determine_default(project)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 306, in _determine_default
+    return _determine_default_project(project)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/auth/_default.py", line 752, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+Traceback (most recent call last):
+  File "<string>", line 2, in <module>
+  File "/home/john/antigravity-mcp-setup/server.py", line 13, in <module>
+    storage_client = storage.Client()
+                     ^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/storage/client.py", line 265, in __init__
+    super(Client, self).__init__(
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 339, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 287, in __init__
+    project = self._determine_default(project)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 306, in _determine_default
+    return _determine_default_project(project)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/auth/_default.py", line 752, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/home/john/antigravity-mcp-setup/server.py", line 13, in <module>
+    storage_client = storage.Client()
+                     ^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/storage/client.py", line 265, in __init__
+    super(Client, self).__init__(
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 339, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 287, in __init__
+    project = self._determine_default(project)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 306, in _determine_default
+    return _determine_default_project(project)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/auth/_default.py", line 752, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+Traceback (most recent call last):
+  File "<string>", line 2, in <module>
+  File "/home/john/antigravity-mcp-setup/server.py", line 13, in <module>
+    storage_client = storage.Client()
+                     ^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/storage/client.py", line 265, in __init__
+    super(Client, self).__init__(
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 339, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 287, in __init__
+    project = self._determine_default(project)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 306, in _determine_default
+    return _determine_default_project(project)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/auth/_default.py", line 752, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/home/john/antigravity-mcp-setup/server.py", line 13, in <module>
+    storage_client = storage.Client()
+                     ^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/storage/client.py", line 265, in __init__
+    super(Client, self).__init__(
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 339, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 287, in __init__
+    project = self._determine_default(project)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 306, in _determine_default
+    return _determine_default_project(project)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/auth/_default.py", line 752, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+Traceback (most recent call last):
+  File "<string>", line 2, in <module>
+  File "/home/john/antigravity-mcp-setup/server.py", line 13, in <module>
+    storage_client = storage.Client()
+                     ^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/storage/client.py", line 265, in __init__
+    super(Client, self).__init__(
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 339, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 287, in __init__
+    project = self._determine_default(project)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 306, in _determine_default
+    return _determine_default_project(project)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/auth/_default.py", line 752, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/home/john/antigravity-mcp-setup/server.py", line 13, in <module>
+    storage_client = storage.Client()
+                     ^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/storage/client.py", line 265, in __init__
+    super(Client, self).__init__(
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 339, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 287, in __init__
+    project = self._determine_default(project)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 306, in _determine_default
+    return _determine_default_project(project)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/auth/_default.py", line 752, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+Traceback (most recent call last):
+  File "<string>", line 2, in <module>
+  File "/home/john/antigravity-mcp-setup/server.py", line 13, in <module>
+    storage_client = storage.Client()
+                     ^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/storage/client.py", line 265, in __init__
+    super(Client, self).__init__(
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 339, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 287, in __init__
+    project = self._determine_default(project)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 306, in _determine_default
+    return _determine_default_project(project)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/auth/_default.py", line 752, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/home/john/antigravity-mcp-setup/server.py", line 13, in <module>
+    storage_client = storage.Client()
+                     ^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/storage/client.py", line 265, in __init__
+    super(Client, self).__init__(
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 339, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 287, in __init__
+    project = self._determine_default(project)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/client/__init__.py", line 306, in _determine_default
+    return _determine_default_project(project)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/john/antigravity-mcp-setup/venv/lib/python3.12/site-packages/google/auth/_default.py", line 752, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
